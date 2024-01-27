@@ -235,7 +235,7 @@ background-color: #f9faff;
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
-.quoteSection h3{
+.quoteSection h3, .eventsSection h3{
     /* color: #49508B;      */
     color: #222766;     
     /* text-align: center; */
@@ -255,8 +255,12 @@ background-color: #f9faff;
     background-color: #f9faff;
 }
 #eventsSection .container{
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
+}
+.eventsSection h3{
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 @media screen and (orientation: landscape) {
