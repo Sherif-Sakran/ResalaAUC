@@ -24,7 +24,7 @@ header{
     position: sticky;
     width: 100%;
     z-index: 4;
-    top: 0px;
+    top: 0;
     left: 0;
 }
 #homeLi{
@@ -191,12 +191,17 @@ background-color: #f9faff;
 }
 
 
-
-
+/* 
+.upperPadding{
+    height: 10px;
+    border: 3px solid black;
+    margin: 5% auto;
+    text-align: center;
+} */
 
 /* quote section */
 .quoteSection {
-    height: 700px;
+    /* height: 700px; */
     position: relative;
     /* background-color: #f9faff; */
     background-color: #C6D1FC;
@@ -213,25 +218,29 @@ background-color: #f9faff;
     transform: translateY(-50%);
     text-align: justify;
     padding-right: 10%;
-    /* padding-top: 10.5rem; */
-    /* padding-bottom: 10.5rem; */
 }
 .quoteSection h1{
     /* color: #222766;      */
     color: #49508b;     
     /* text-align: center; */
     padding-bottom: 1.5rem;
-    /* margin-top: 8.5rem; */
+    margin-top: 5.5rem;
+    text-align: center;
 }
 .todaysResala{
-    border-bottom: 3px #222766 solid;
+    /* border: 3px #222766 solid; */
+    /* margin-top: 2rem; */
+    background-color: rgba(255, 255, 48, 0.825);
+    /* background-color: rgb(203, 198, 255); */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 }
 .quoteSection h3{
     /* color: #49508B;      */
     color: #222766;     
     /* text-align: center; */
-    font-size: 3rem;
-    padding: 2.5rem 0;
+    font-size: 2rem;
+    /* padding: 2.5rem 0; */
 }
 .quoteSection footer{
     text-align: right;
