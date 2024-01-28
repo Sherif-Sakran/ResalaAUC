@@ -28,7 +28,7 @@ header{
     left: 0;
 }
 #homeLi{
-    color: gold;
+    /* color: gold; */
 }
 
 .navbar {
@@ -155,10 +155,11 @@ background-color: #f9faff;
     font-size: 1.5rem;
     /* text-align: justify; */
     /* font-weight: bolder; */
-    color: #222766;
     /* padding-right: 3.5 rem; */
 }
-
+.darkTextColor, .card-text, small{
+color: #222766;
+}
 #signUpBtn{
     color: #49508B;
     background-color: white;
@@ -176,6 +177,20 @@ background-color: #f9faff;
     margin: 1rem auto;
 }
 
+
+.recruitmentBtns{
+    display: flex;
+    /* flex-direction:row; */
+    justify-content:space-around;
+    margin: auto;
+    /* width: 50%; */
+    align-items: center;
+}
+
+.recruitmentAnnouncement{
+    margin: 1.5rem 0;
+}
+
 .logoIntro{
     width: 20rem;
     border-radius: 0.5rem;
@@ -185,7 +200,14 @@ background-color: #f9faff;
 /* Make introSection responsive */
 @media (max-width: 992px) {
     .introSectionBody{
+        /* text-align: center; */
         flex-direction: column;
+    }
+    .recruitmentBtns{
+        flex-direction: column;
+    }
+    .recruitmentAnnouncement{
+        text-align: center;
     }
 
 }
@@ -201,6 +223,7 @@ background-color: #f9faff;
 
 /* quote section */
 .quoteSection {
+    /* min-height: 400px; */
     /* height: 700px; */
     position: relative;
     /* background-color: #f9faff; */
@@ -230,16 +253,16 @@ background-color: #f9faff;
 .todaysResala{
     /* border: 3px #222766 solid; */
     /* margin-top: 2rem; */
-    background-color: rgba(255, 255, 48, 0.825);
+    /* background-color: rgba(255, 255, 48, 0.825); */
     /* background-color: rgb(203, 198, 255); */
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
 .quoteSection h3, .eventsSection h3{
     /* color: #49508B;      */
-    color: #222766;     
+    /* color: #222766;      */
     /* text-align: center; */
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* padding: 2.5rem 0; */
 }
 .quoteSection footer{
@@ -301,14 +324,18 @@ section .img-fluid{
     background-color:#C6D1FC;
     background-color:#222766;
 }
-.gallerySection h1{
+section .sectionHeader{
     text-align: center;
     /* margin-top: 1rem; */
     color: #C6D1FC;
     /* margin-bottom: 4rem; */
 }
-.eventsSection h3, .eventsSection h4{
+section .sectionHeaderDark{
     color: #191C5C;
+}
+
+.eventsSection h3, .eventsSection h4{
+    /* color: #191C5C; */
     
 }
 
@@ -426,7 +453,10 @@ section .img-fluid{
 
 
 .teamSection .container h3{
-    margin-top: 4rem;
+    margin-top: 2rem;
+}
+.eventsSection h4, .teamSection .container h3, .teamSection .container {
+    color: #222766;
 }
 
 
@@ -436,8 +466,10 @@ footer {
 }
     
 .footer-container {
+    background-color:#C6D1FC;
     background-color:#191C5C;
     display: flex;
+    /* align-items: center; */
 }
     
 .footer-container a {
@@ -455,7 +487,8 @@ footer {
     
 .footer-icons {
     justify-content: space-between;
-    padding: 16px 64px 0px 0px;
+    padding: 16px 32px 0px 0px;
+    margin: auto;
 }
     
 .footer-icons ul {
@@ -467,7 +500,10 @@ footer {
 }
       
 .copyright{
-    background-color: #F5F6F7;
+    /* background-color: #F5F6F7; */
+    background-color: #C6D1FC;
+    background-color: #191C5C;
+    color: #C6D1FC;
     overflow: hidden;
 }
 
