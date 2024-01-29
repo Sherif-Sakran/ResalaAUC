@@ -191,6 +191,11 @@ color: #222766;
     margin: 1.5rem 0;
 }
 
+.announcementSpan{
+    outline: 2px #5b7cff dashed;
+    outline-offset: 5px;
+}
+
 .logoIntro{
     width: 20rem;
     border-radius: 0.5rem;
@@ -361,6 +366,10 @@ section .sectionHeaderDark{
     margin-top:20px;
     background:rgba(241,246,253);
 } */
+
+.teamSection{
+    padding: 8% 0 0 0;
+}
 .rounded-circle {
     border-radius: 50%!important;
 }
