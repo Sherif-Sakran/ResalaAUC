@@ -367,7 +367,7 @@ section .sectionHeaderDark{
     background:rgba(241,246,253);
 } */
 
-.teamSection{
+.teamSection, .eventsSection{
     padding: 8% 0 0 0;
 }
 .rounded-circle {
