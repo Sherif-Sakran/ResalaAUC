@@ -124,6 +124,7 @@ header{
     .navbar-links.active {
         display: flex;
     }
+
 }
 
 
@@ -297,6 +298,19 @@ color: #222766;
     }
   }
 
+  .carousel img {
+    width: 100%; /* Make images fill the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+/* @media screen and (max-width: 992) { */
+@media screen{
+/* Adjust the width for larger screens if needed */
+.carousel img {
+    /* height: 100vh; */
+    height: 100vh;
+}
+}
 
   .card img{
     width: 100%;
