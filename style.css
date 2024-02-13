@@ -492,6 +492,8 @@ footer {
     background-color:#C6D1FC;
     background-color:#191C5C;
     display: flex;
+    border-top: 0.1px whitesmoke solid;
+    border-bottom: 0.1px whitesmoke solid;
     /* align-items: center; */
 }
     
